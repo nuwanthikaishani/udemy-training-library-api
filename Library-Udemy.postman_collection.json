@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "111083d5-67e9-44f3-a015-9ad0af4eac3a",
+		"name": "Library-Udemy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3187012"
+	},
+	"item": [
+		{
+			"name": "Add-Book",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\":\"Learn Appium Automation with pyth0n\",\r\n    \"isbn\":\"bcd\",\r\n    \"aisle\":\"900\",\r\n    \"author\":\"John foe\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rahulshettyacademy.com/Library/Addbook.php",
+					"protocol": "https",
+					"host": [
+						"rahulshettyacademy",
+						"com"
+					],
+					"path": [
+						"Library",
+						"Addbook.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
